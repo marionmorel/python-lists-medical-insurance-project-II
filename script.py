@@ -28,3 +28,9 @@ print("Here is the first medical record: " + str(first_medical_record))
 # Task 8
 medical_records.sort()
 print("Here are the medical records sorted by insurance cost: " + str(medical_records))
+
+# Task 9
+cheapest_three = medical_records[:3]
+
+# Task 10
+print("Here are the three cheapest insurance costs in our medical records: " + str(cheapest_three))
