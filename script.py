@@ -44,3 +44,11 @@ print("Here are the three most expensive insurance costs in our medical records:
 # Task 13
 occurences_paul = names.count("Paul")
 print("There are " + str(occurences_paul) + " individuals with the name Paul in our medical records.")
+
+# Task 14
+medical_records = list(zip(names, insurance_costs))
+medical_records.sort()
+print("Here are the medical records sorted by name: " + str(medical_records))
+
+middle_five_records = medical_records[3:8]
+print("Here are the middle five medical records: " + str(middle_five_records))
