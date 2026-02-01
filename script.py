@@ -40,3 +40,7 @@ priciest_three = medical_records[-3:]
 
 # Task 12
 print("Here are the three most expensive insurance costs in our medical records: " + str(priciest_three))
+
+# Task 13
+occurences_paul = names.count("Paul")
+print("There are " + str(occurences_paul) + " individuals with the name Paul in our medical records.")
