@@ -18,3 +18,9 @@ num_medical_records = len(medical_records)
 
 # Task 5
 print("There are " + str(num_medical_records) + " medical records.")
+
+# Task 6
+first_medical_record = medical_records[0]
+
+# Task 7
+print("Here is the first medical record: " + str(first_medical_record))
