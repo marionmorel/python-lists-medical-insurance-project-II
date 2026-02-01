@@ -12,3 +12,9 @@ medical_records = list(zip(insurance_costs, names))
 
 # Task 3
 print(medical_records)
+
+# Task 4
+num_medical_records = len(medical_records)
+
+# Task 5
+print("There are " + str(num_medical_records) + " medical records.")
