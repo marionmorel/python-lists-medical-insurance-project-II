@@ -24,3 +24,7 @@ first_medical_record = medical_records[0]
 
 # Task 7
 print("Here is the first medical record: " + str(first_medical_record))
+
+# Task 8
+medical_records.sort()
+print("Here are the medical records sorted by insurance cost: " + str(medical_records))
