@@ -34,3 +34,9 @@ cheapest_three = medical_records[:3]
 
 # Task 10
 print("Here are the three cheapest insurance costs in our medical records: " + str(cheapest_three))
+
+# Task 11
+priciest_three = medical_records[-3:]
+
+# Task 12
+print("Here are the three most expensive insurance costs in our medical records: " + str(priciest_three))
