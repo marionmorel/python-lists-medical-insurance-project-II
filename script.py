@@ -6,3 +6,9 @@ insurance_costs = [13262.0, 4816.0, 6839.0, 5054.0, 14724.0, 5360.0, 7640.0, 607
 # Task 1
 names.append("Priscilla")
 insurance_costs.append(8320.0)
+
+# Task 2
+medical_records = list(zip(insurance_costs, names))
+
+# Task 3
+print(medical_records)
